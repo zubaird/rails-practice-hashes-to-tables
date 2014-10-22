@@ -1,0 +1,31 @@
+<div class="page-header">
+  <h1>People</h1>
+</div>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Eye Color</th>
+      <th>Date of Birth</th>
+      <th>Height in Inches</th>
+      <th>Awesome?</th>
+      <th>Created At</th>
+  </thead>
+  <tbody>
+    <% @people.each do |person| %>
+      <tr>
+        <td><%= person.id %></td>
+        <td><%= person.first_name %></td>
+        <td><%= person.last_name %></td>
+        <td><%= person.eye_color %></td>
+        <td><%= person.date_of_birth %></td>
+        <td><%= person.height_in_inches %></td>
+        <td><%= person.awesome %></td>
+        <td><%= person.created_at %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
