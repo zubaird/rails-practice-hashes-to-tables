@@ -12,3 +12,15 @@ Alter the index page:
 - order by first name
 - filter so only awesome people are shown
 - filter so only people with green eyes are shown
+
+## Stretch
+
+Create a sidebar that allows users to filter by a unique list of every attribute.
+
+So if you have 4 people, two with green eyes and two with blue eyes, the sidebar
+would have 2 links:
+
+* green eyes
+* blue eyes
+
+HINT: you'll need to use query params
